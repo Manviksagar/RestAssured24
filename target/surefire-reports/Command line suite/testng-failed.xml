@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.sag.appium.RestAssued1.PutTest">
+        <methods>
+          <include name="TestPut"/>
+        </methods>
+      </class> <!-- com.sag.appium.RestAssued1.PutTest -->
+      <class name="com.sag.appium.RestAssued1.Rest_Test">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- com.sag.appium.RestAssued1.Rest_Test -->
+      <class name="com.sag.appium.RestAssued1.PostTest">
+        <methods>
+          <include name="postTest"/>
+        </methods>
+      </class> <!-- com.sag.appium.RestAssued1.PostTest -->
+      <class name="com.sag.appium.RestAssued1.TestAuthorization1">
+        <methods>
+          <include name="getAuthorization"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sag.appium.RestAssued1.TestAuthorization1 -->
+      <class name="com.sag.appium.RestAssued1.TestAuthorization">
+        <methods>
+          <include name="setup"/>
+          <include name="getAuthorization"/>
+        </methods>
+      </class> <!-- com.sag.appium.RestAssued1.TestAuthorization -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
